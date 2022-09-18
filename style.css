@@ -1,0 +1,42 @@
+#container{
+    box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(255 255 255 / 80%) -6px -2px 16px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 0.6%;
+    background-color: navy;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: -1vh;
+}
+.fitem{
+    /* background-color: blue; */
+    /* margin: 10px; */
+    padding: 10px;
+   
+}
+#fitem item4{
+    display: flex;
+}
+
+#button {
+   margin-right: 31vh;
+   height: 35px;
+   width: 10vh;
+   background-color: yellow;
+}
+#search{
+    width: 400px;
+    height: 30px;
+
+
+}
+
+@media only screen and (min-width:400px)and (max-width:900px)
+{
+    #container{
+        display: flex;
+      
+    }
+}
